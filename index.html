@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thực hành số 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="inner-logo">
+                <img src="./images/download.png" alt="PTIT LOGO">
+                <h1><span>PTIT</span> SURVEY</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-submit">
+        <div class="container">
+            <h2>Thông tin người dùng</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="fullname">Họ và tên:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="birthdate">Ngày tháng năm sinh:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </div>
+                <div class="form-group">
+                    <label for="cccd">CCCD:</label>
+                    <input type="text" id="cccd" name="cccd" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Địa chỉ thường trú:</label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+                <button type="submit">Làm bài</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
